@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import paintings from  "./cards.json";
+import paintings from "./cards.json";
 import Scoreboard from "./components/Scoreboard";
 import Card from "./components/Card";
 
@@ -24,24 +24,24 @@ function shuffle (array) {
       clickedpaintings: []
     };
 
-    clickedImages = id => {
-      let clickedPaintings = this.state.clickedPaintings;
+    clickedImage = id => {
+      let clickedpaintings = this.state.clickedpaintings;
       let score = this.state.score;
       let topScore = this.state.topScore;
       this.setState( {
         showAlert: 0
       });
 
-      if (clickedPaintings.indexOf(id) === -1) {
-        clickedPaintings.push(id);
-        console.log(clickedPaintings);
+      if (clickedpaintings.indexOf(id) === -1) {
+        clickedpaintings.push(id);
+        console.log(clickedpaintings);
         this.handleIncrement();
         this.makeShuffle();
       } else if (this.state.score ===12) {
         this.setState( {
           showSuccess:1,
           score: 0, 
-          clickedPaintings: []
+          clickedpaintings: []
         });
         console.log("duplicate");
         this.setState({
@@ -57,8 +57,12 @@ function shuffle (array) {
 
     //handles increments
     handleIncrement = () => {
+      this.setState({ score: this.state.score + 1 });
+    };
+    makeShuffle = () => {
       this.setState({ paintings: shuffle(paintings) });
     };
+
     render() {
       return (
         <div className = "container">

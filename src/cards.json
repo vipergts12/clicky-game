@@ -1,38 +1,38 @@
 [
     {
         "id": 1,
-        "image": "/assets/images/wassily-kandinsky-composition-8-1923.png",
-        "artist": "Wassily Kandinsky",
-        "title": "Composition 8",
-        "year": "1923"
+        "image": "/assets/images/diego-ph-fIq0tET6llw-unsplash.jpg",
+        "artist": "Diego PH",
+        "title": "",
+        "year": "2019"
     },
     {
         "id": 2,
-        "image": "/assets/images/salvador-dali-the-persistence-of-memory-1931.png",
-        "artist": "Salvador Dalí",
-        "title": "The Persistence of Memory",
-        "year": "1931"
+        "image": "/assets/images/kristopher-roller-PC_lbSSxCZE-unsplash.jpg",
+        "artist": "Kristopher Roller",
+        "title": "",
+        "year": "2019"
     },
     {
         "id": 3,
-        "image": "/assets/images/roy-lichtenstein-drowning-girl-1963.png",
-        "artist": "Roy Lichtenstein",
-        "title": "Drowning Girl",
-        "year": "1963"
+        "image": "/assets/images/austin-chan-ukzHlkoz1IE-unsplash.jpg",
+        "artist": "Austin Chan",
+        "title": "",
+        "year": "2019"
     },
     {
         "id": 4,
-        "image": "/assets/images/rene-magritte-the-son-of-man-1946.png",
-        "artist": "René Magritte",
-        "title": "The Son of Man",
-        "year": "1964"
+        "image": "/assets/images/danielle-macinnes-IuLgi9PWETU-unsplash.jpg",
+        "artist": "Danielle Macinnes",
+        "title": "",
+        "year": "2019"
     },
     {
         "id": 5,
-        "image": "/assets/images/piet-mondrian-composition-large-red-plane-1921.png",
-        "artist": "Piet Mondrian",
-        "title": "Composition Large Red Plane",
-        "year": "1921"
+        "image": "/assets/images/olga-serjantu-Nn1Yu2uCmwg-unsplash.jpg",
+        "artist": "Olga Serjantu",
+        "title": "",
+        "year": "2019"
     },
     {
         "id": 6,

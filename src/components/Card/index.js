@@ -1,5 +1,5 @@
 import React from "react";
-import './card.css';
+import "./card.css";
 
 const Cards = props => (
     <div className="card" onClick={() => props.clickedImage(props.id)}>
@@ -10,6 +10,7 @@ const Cards = props => (
                     {props.title}
                     <br />
                     by
+          <br />
                     {props.artist} in {props.year}
                 </div>
             </div>
