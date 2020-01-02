@@ -1,26 +1,124 @@
-import React from 'react';
+import React, { Component } from "react";
 import logo from './logo.svg';
 import './App.css';
+import paintings from  "./cards.json";
+import Scoreboard from "./components/Scoreboard";
+import Card from "./components/Card";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+//app shuffles cards with each click
+function shuffle (array) {
+  for (let i =  array.length -1 ; i> 0; i --) {
+    const j = Math.floor(Math.random() * (i+1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+  }
+ 
+  class App extends Component {
+    state = {
+      paintings,
+      score: 0,
+      topScore: 0,
+      showAlert: 0,
+      showSuccess: 0,
+      clickedpaintings: []
+    };
 
-export default App;
+    clickedImages = id => {
+      let clickedPaintings = this.state.clickedPaintings;
+      let score = this.state.score;
+      let topScore = this.state.topScore;
+      this.setState( {
+        showAlert: 0
+      });
+
+      if (clickedPaintings.indexOf(id) === -1) {
+        clickedPaintings.push(id);
+        console.log(clickedPaintings);
+        this.handleIncrement();
+        this.makeShuffle();
+      } else if (this.state.score ===12) {
+        this.setState( {
+          showSuccess:1,
+          score: 0, 
+          clickedPaintings: []
+        });
+        console.log("duplicate");
+        this.setState({
+          showAlert:1
+        });
+      }
+      if (score > topScore) {
+        this.setState({
+          topScore: score
+        });
+      }
+    };
+
+    //handles increments
+    handleIncrement = () => {
+      this.setState({ paintings: shuffle(paintings) });
+    };
+    render() {
+      return (
+        <div className = "container">
+          <div 
+          className="alert alert-danger"
+          style={{ opacity: this.state.showAlert }}
+          >
+            Try again
+          </div>
+          <div 
+          className="alert alert-succes"
+          style= {{ opacity: this.state.showSuccess }}
+          >
+            Good Job!
+          </div>
+          <Scoreboard
+          title="clicky Game"
+          score={this.state.score}
+          topScore={this.state.topScore}
+        />
+          <div className="row">
+            {this.state.paintings.map(painting => (
+              <Card 
+              key={painting.id}
+              id= {painting.id}
+              artist= { painting.artist}
+              title= { painting.title}
+              year= { painting.year}
+              image= { painting.image}
+              clickedImage={this.clickedImage}
+              />
+            ))}
+          </div>
+        </div>
+      );
+    }
+  }
+
+  export default App;
+
+
+// function App() {
+//   return (
+//     <div className="App">
+//       <header className="App-header">
+//         <img src={logo} className="App-logo" alt="logo" />
+//         <p>
+//           Edit <code>src/App.js</code> and save to reload.
+//         </p>
+//         <a
+//           className="App-link"
+//           href="https://reactjs.org"
+//           target="_blank"
+//           rel="noopener noreferrer"
+//         >
+//           Learn React
+//         </a>
+//       </header>
+//     </div>
+//   );
+// }
+
+// export default App;
