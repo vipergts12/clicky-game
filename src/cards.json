@@ -50,121 +50,121 @@
     },
     {
         "id": 8,
-        "image": "/assets/images/mark-rothko-untitled-1949.png",
-        "artist": "Mark Rothko",
-        "title": "Untitled",
-        "year": "1949"
+        "image": "/assets/images/fabian-moller-gI7zgb80QWY-unsplash.jpg",
+        "artist": "Fabian Moller",
+        "title": "pink breathe neon sign",
+        "year": "2019"
     },
     {
         "id": 9,
-        "image": "/assets/images/marc-chagall-rural-landscape-1917.png",
-        "artist": "Marc Chagall",
-        "title": "Rural Landscape",
-        "year": "1917"
+        "image": "/assets/images/nicholas-green-5hGY5j4-57o-unsplash.jpg",
+        "artist": "Nicholas Green",
+        "title": "grayscale photography of person walking beside building",
+        "year": "2019"
     },
     {
         "id": 10,
-        "image": "/assets/images/keith-haring-best-buddies-1989.png",
-        "artist": "Keith Haring",
-        "title": "Best Buddies",
-        "year": "1989"
+        "image": "click-game/public/assets/images/ian-schneider-TamMbr4okv4-unsplash.jpg",
+        "artist": "Ian Schneider",
+        "title": "two person standing on gray tile paving",
+        "year": "2019"
     },
     {
         "id": 11,
-        "image": "/assets/images/katsushika-hokusai-the-great-wave-off-kanagawa-1832.png",
-        "artist": "Katsushika Hokusai",
-        "title": "The Great Wave off Kanagawa",
-        "year": "1832"
+        "image": "/assets/images/pineapple-supply-co-MrHNzdTp11w-unsplash.jpg",
+        "artist": "Pineapple Supply Co",
+        "title": "One pineapple on boulders facing sea and sunset",
+        "year": "2019"
     },
     {
         "id": 12,
-        "image": "/assets/images/joan-miro-chiffres-et-constellations-amoureux-1959.png",
-        "artist": "Joan Miró",
-        "title": "Chiffres et Constellations Amoureux",
-        "year": "1959"
+        "image": "click-game/public/assets/images/adam-jang-8pOTAtyd_Mc-unsplash.jpg",
+        "artist": "Adam Jang",
+        "title": "We like you too quotes on wall",
+        "year": "2019"
     },
     {
         "id": 13,
-        "image": "/assets/images/henri-matisse-la-tristesse-du-roi-1952.png",
-        "artist": "Henri Matisse",
-        "title": "La Tristesse du roi",
-        "year": "1952"
+        "image": "/assets/images/eric-prouzet-xcBWeU4ybqs-unsplash.jpg",
+        "artist": "Eric Prouzet",
+        "title": "assorted-color stone lot",
+        "year": "2019"
     },
     {
         "id": 14,
-        "image": "/assets/images/gustav-klimt-water-serpents-II-1902.png",
-        "artist": "Gustav Klimt",
-        "title": "Water Serpents II",
-        "year": "1902"
+        "image": "/assets/images/crawford-jolly-Sew-_taOFPg-unsplash.jpg",
+        "artist": "Crawford Jolly Sew",
+        "title": "stick to the paint",
+        "year": "2019"
     },
     {
         "id": 15,
-        "image": "/assets/images/frida-kahlo-self-portrait-II-1940.png",
-        "artist": "Frida Kahlo",
-        "title": "Self Portrait II",
-        "year": "1940"
+        "image": "/assets/images/franz-harvin-aceituna-5EXMbjA6uGA-unsplash.jpg",
+        "artist": "Franz Harvin Aceituna",
+        "title": "silhouette of woman standing at the seashore with crashing waves during golden hour",
+        "year": "2019"
     },
     {
         "id": 16,
-        "image": "/assets/images/frank-stella-abra-variation-I-1969.png",
-        "artist": "Frank Stella",
-        "title": "Abra Variation I",
-        "year": "1969"
+        "image": "",
+        "artist": "",
+        "title": "",
+        "year": ""
     },
     {
         "id": 17,
-        "image": "/assets/images/egon-schiele-self-portrait-with-physalis-1912.png",
-        "artist": "Egon Schiele",
-        "title": "Self Portrait with Physalis",
-        "year": "1912"
+        "image": "/assets/images/franz-harvin-aceituna-lAtB1MVe3S0-unsplash.jpg",
+        "artist": "Franz Harvin Aceituna",
+        "title": "cityscape by night photography",
+        "year": "2019"
     },
     {
         "id": 18,
-        "image": "/assets/images/edvard-munch-the-scream-1893.png",
-        "artist": "Edvard Munch",
-        "title": "The Scream",
-        "year": "1893"
+        "image": "/assets/images/dan-meyers-eio8P1KvdCo-unsplash.jpg",
+        "artist": "Dan Meyers",
+        "title": "Tree Protection Zone board hanging on chain link fence",
+        "year": "2019"
     },
     {
         "id": 19,
-        "image": "/assets/images/david-hockney-a-bigger-splash-1967.png",
-        "artist": "David Hockney",
-        "title": "A Bigger Splash",
-        "year": "1967"
+        "image": "/assets/images/shivam-dewan-tUVWuQpfj2A-unsplash.jpg",
+        "artist": "Shivam Dewan",
+        "title": "man kneeling on ground beside monk at daytime",
+        "year": "2019"
     },
     {
         "id": 20,
-        "image": "/assets/images/andy-warhol-marilyn-monroe-1967.png",
-        "artist": "Andy Warhol",
-        "title": "Marilyn Monroe",
-        "year": "1967"
+        "image": "/assets/images/jorge-fernandez-B-mDTp4ahZw-unsplash.jpg",
+        "artist": "Jorge Fernandez",
+        "title": "grey faucet",
+        "year": "2019"
     },
     {
         "id": 21,
-        "image": "/assets/images/gustav-klimt-water-serpents-I-1902.png",
-        "artist": "Gustav Klimt",
-        "title": "Water Serpents I",
-        "year": "1902"
+        "image": "/assets/images/lethu-zimu-DLz8QHA7pFU-unsplash.jpg",
+        "artist": "Lethy Zimu",
+        "title": "Overstep Table Tennis Training building",
+        "year": "2019"
     },
     {
         "id": 22,
-        "image": "/assets/images/fernand-leger-la-femme-et-lenfant-1922.png",
-        "artist": "Fernand Léger",
-        "title": "La femme et l'enfant",
-        "year": "1922"
+        "image": "/assets/images/joel-de-vriend-_GnUJ-DZD4c-unsplash.jpg",
+        "artist": "Joel De Vriend",
+        "title": "human form graffiti surrounded by leaves",
+        "year": "2019"
     },
     {
         "id": 23,
-        "image": "/assets/images/keith-haring-ball-1988.png",
-        "artist": "Keith Haring",
-        "title": "Ball",
-        "year": "1988"
+        "image": "/assets/images/tim-goedhart-vnpTRdmtQ30-unsplash.jpg",
+        "artist": "Tim Goedhart",
+        "title": "Breathe neon signage",
+        "year": "2019"
     },
     {
         "id": 24,
-        "image": "/assets/images/diego-rivera-the-flower-seller-1942.png",
-        "artist": "Diego Rivera",
-        "title": "The Flower Seller",
-        "year": "1942"
+        "image": "/assets/images/jon-tyson-XzUMBNmQro0-unsplash.jpg",
+        "artist": "Jon Tyson",
+        "title": "gray metal framed chalkboard with whatever it takes written",
+        "year": "2019"
     }
 ]
