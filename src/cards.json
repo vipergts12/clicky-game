@@ -31,22 +31,22 @@
         "id": 5,
         "image": "/assets/images/olga-serjantu-Nn1Yu2uCmwg-unsplash.jpg",
         "artist": "Olga Serjantu",
-        "title": "",
+        "title": "brown wooden duck figurine",      
         "year": "2019"
     },
     {
         "id": 6,
-        "image": "/assets/images/paul-klee-castle-and-sun-1928.png",
-        "artist": "Paul Klee",
-        "title": "Castle and Sun",
-        "year": "1928"
+        "image": "/assets/images/pineapple-supply-co-purEpNm5Zt8-unsplash.jpg",
+        "artist": "Pineapple Supply Co",
+        "title": "artificial silver pineapple",
+        "year": "2019"
     },
     {
         "id": 7,
-        "image": "/assets/images/pablo-picasso-the-old-guitarist-1903.png",
-        "artist": "Pablo Picasso",
-        "title": "The Old Guitarist",
-        "year": "1903"
+        "image": "/assets/images/jordan-whitfield-sm3Ub_IJKQg-unsplash.jpg",
+        "artist": "Jordan Whitfield",
+        "title": "blue Work Harder neon signage",
+        "year": "2019"
     },
     {
         "id": 8,
